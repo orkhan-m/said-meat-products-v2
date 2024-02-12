@@ -95,9 +95,13 @@ body {
   border-top: 2px solid #adb5bd;
 }
 
+/* //////////////////////
+SLIDER 
+////////////////////// */
+
 .slider {
   max-width: 50rem;
-  height: 50rem;
+  height: 75rem;
   margin: 0 auto;
   position: relative;
 
@@ -109,11 +113,13 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 50rem;
+  height: 75rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
+
+  flex-direction: column;
 
   /* THIS creates the animation! */
   transition: transform 1s;
@@ -180,4 +186,23 @@ body {
   /* background-color: #fff; */
   background-color: #888;
   opacity: 1;
+}
+
+.sausage-description {
+  margin-top: 2rem;
+  font-size: 3.6rem;
+
+  width: 80%;
+}
+
+.sausage-description > ul {
+  list-style: none;
+}
+
+.sausage-description > ul > li {
+  margin: 2rem;
+}
+
+.sausage-description > h3 {
+  text-align: center;
 }
