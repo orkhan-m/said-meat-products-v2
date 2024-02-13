@@ -74,9 +74,9 @@ body {
 .logo-background {
   display: flex;
   margin: auto;
-  width: 78rem;
-  border-radius: 24%;
-  border: 1px #343a40 solid;
+  width: 68rem;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 
   margin-bottom: 5rem;
 }
@@ -242,3 +242,16 @@ SLIDER
   filter: invert(100%);
   padding: auto;
 }
+
+.btn-card {
+  position: relative;
+}
+
+/* .btn-cart::after {
+  font-size: 2rem;
+  content: "0";
+  color: #000;
+  background-color: #dd7973;
+  padding: 1rem;
+  border-radius: 50%;
+} */
